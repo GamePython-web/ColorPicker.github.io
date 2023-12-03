@@ -11,19 +11,13 @@ div{
     font-size: 60px;
     color: white;
 }
-#container4{
-    background-color: #37e095;
-    text-align: center;
-    
-}
-#container3{
-    background-color: #85c1a6;
-}
-#container2{
-    background-color: #5d9cb6
-}
-#container1{
-    background-color: #b7650d;
+p{
+    width: 40vh;
+    height: 80vh;
+    padding-top: 70vh;
+    position: absolute;
+    bottom: 100px;
+    box-sizing: border-box;
 }
 #save-btn{
     background-color: #298fba;
