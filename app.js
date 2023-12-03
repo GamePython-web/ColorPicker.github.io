@@ -39,6 +39,10 @@ function renderColor(){
 
 }
 renderColor()
+container_1.addEventListener("click", container1)
+container_2.addEventListener("click", container2)
+container_3.addEventListener("click", container3)
+container_4.addEventListener("click", container4)
 
 window.addEventListener('keydown',function(e){
     if (e.key == " "){
