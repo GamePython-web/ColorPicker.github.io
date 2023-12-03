@@ -31,3 +31,9 @@ p{
     margin-top: 50px;
     visibility: hidden;
 }
+img{
+    position:relative;
+    top:5px;
+    left:165px;
+    z-index: 1;
+}
