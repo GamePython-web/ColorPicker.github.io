@@ -3,10 +3,10 @@
     src: url(fonts/HighriseDemo\ Bold\ 700.otf);
 }
 div{
-    width: 20vh;
-    height: 40vh;
+    width: 40vh;
+    height: 80vh;
     text-align:center;
-    position: relative;
+    /* position: relative; */
     font-family:Highrace_B ;
     font-size: 60px;
     color: white;
@@ -24,4 +24,16 @@ div{
 }
 #container1{
     background-color: #b7650d;
+}
+#save-btn{
+    background-color: #298fba;
+    border: none;   
+    border-radius: 10px;
+    font-size: 35px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    font-family: Highrace_B;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    visibility: hidden;
 }
