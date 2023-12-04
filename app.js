@@ -10,28 +10,39 @@ const copy_4 = document.querySelector("#copy-4")
 
 
 function container1(){
-    let randomColor = Math.floor(Math.random()*16777215).toString(16);
-    container_1.style.backgroundColor = "#" + randomColor
+    let r = Math.floor(Math.random()*250);
+    let g = Math.floor(Math.random()*250);
+    let b = Math.floor(Math.random()*250);
+    let randomColor = `${r},${g},${b}`
+    container_1.style.backgroundColor = `rgb(${r},${g},${b})`
     container_1.innerText = randomColor
 }
 
 function container2(){
-    let randomColor = Math.floor(Math.random()*16777215).toString(16);
-    container_2.style.backgroundColor = "#" + randomColor
+    let r = Math.floor(Math.random()*250);
+    let g = Math.floor(Math.random()*250);
+    let b = Math.floor(Math.random()*250);
+    let randomColor = `${r},${g},${b}`
+    container_2.style.backgroundColor = `rgb(${r},${g},${b})`
     container_2.innerText = randomColor
 
 }
 
 function container3(){
-    let randomColor = Math.floor(Math.random()*16777215).toString(16);
-    container_3.style.backgroundColor = "#" + randomColor
+    let r = Math.floor(Math.random()*250);
+    let g = Math.floor(Math.random()*250);
+    let b = Math.floor(Math.random()*250);
+    let randomColor = `${r},${g},${b}`
+    container_3.style.backgroundColor = `rgb(${r},${g},${b})`
     container_3.innerText = randomColor
-
 }
 
 function container4(){
-    let randomColor = Math.floor(Math.random()*16777215).toString(16);
-    container_4.style.backgroundColor = "#" + randomColor
+    let r = Math.floor(Math.random()*250);
+    let g = Math.floor(Math.random()*250);
+    let b = Math.floor(Math.random()*250);
+    let randomColor = `${r},${g},${b}`
+    container_4.style.backgroundColor = `rgb(${r},${g},${b})`
     container_4.innerText = randomColor
 
 }
@@ -67,7 +78,7 @@ container_2.addEventListener("click", container2)
 container_3.addEventListener("click", container3)
 container_4.addEventListener("click", container4)
 
-window.addEventListener('keydown',function(e){
+window.addEventListener('keydown',(e)=>{
     if (e.key == " "){
         renderColor()
     }
